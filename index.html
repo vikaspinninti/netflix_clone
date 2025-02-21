@@ -38,8 +38,8 @@
                                     id = "languagesSelect"
                                     class = "language_drop_down"
                                 >
-                                <option value = "english" selected style = "color: white;">English</option>
                                 <option value = "hindi" selected style = "color: white;">हिन्दी</option>
+                                <option value = "english" selected style = "color: white;">English</option>
                                 </select>
                             </div> 
                         </div>
@@ -49,8 +49,86 @@
                     </div>
                 </nav>
             </header>
-            <main>
 
+            <main>
+                <section class="hero">
+                    <div class = "hero_bg_image_container">
+                        <img
+                            src="images/hero_background_image.jpg"
+                            alt="BG hero image"
+                            class="hero_bg_image"
+                        />
+                    </div>
+                    <div class="hero_bg_overlay"></div>
+
+                    <div class="hero_card">
+                        <h1 class = "hero_title">
+                            Unlimited Movies, TV,<br />
+                            Shows and More.
+                        </h1>
+                        <p class="hero_subtitle">Watch anywhere and cancel anytime.</p>
+                        <p class="hero_description">
+                            Ready to watch? Enter your email to create or restart yout membership.
+                        </p>
+                        <div class="email_form_container">
+                            <div class="form_container">
+                                <input type="email" class="email_input" placeholder=" "/>
+                                <label class="email_label">Email Address</label>
+                            </div>
+                            <button class="primary_button">
+                                Get Started <i class="fal fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="features_container">
+                    <div class="feature">
+                        <div class="feature_details">
+                            <h3 class ="feature_title">Enjoy on your TV.</h3>
+                            <h5 class ="feature_sub_title">
+                                Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                            </h5>
+                        </div>
+                        <div class="feature_image_container">
+                            <img
+                                src="images/tv.png"
+                                alt="Feature Image"
+                                class="feature_image"
+                            />
+                            <div class="feature_background_video_container">
+                                <video
+                                    autoplay=""
+                                    loop=""
+                                    muted=""
+                                    class="feature_background_video"
+                                >
+                                <source
+                                src="images/video-tv-in-0819.m4v"
+                                type="video/mp4"
+                                />
+                            </video>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Feature 2-->
+                    <div class="feature">
+                        <div class="feature_details">
+                            <h3 class="feature_title">
+                                Download your shows to watch offline.
+                            </h3>
+                            <h5 class="feature_sub_title">
+                                Save your favourites easily and always have something to watch.
+                            </h5>
+                        </div>
+                        <div class="feature_image_container">
+                            <img
+                                src="images/mobile.jpg"
+                                alt="Feature Image"
+                                class="feature_image"
+                            />
+                        </div>
+                    </div>
+                </section>
             </main>
         </body>
     </head>
